@@ -1,4 +1,5 @@
 import random
+import string
 
 def genPassword(userNum):
         letterNum = random.randrange(32,127)
