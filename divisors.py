@@ -4,7 +4,7 @@ def divisors(userNum):
         if( (userNum % i) == 0 ):
             divisorList.append(i)
 
-    print("This is a list of divisors for", userNum, divisorList)
+    print("This is a list of divisors for", userNum, "is", divisorList)
 
 
 def main():
