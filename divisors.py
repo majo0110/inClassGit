@@ -1,3 +1,7 @@
+def divisors(userNum):
+    divisorList = []
+
+
 def main():
     userInput = input("Enter a number: ")
 
