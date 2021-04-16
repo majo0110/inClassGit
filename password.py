@@ -6,7 +6,7 @@ def genPassword(userNum):
         letterNum = random.randrange(32,127)
         letter = chr(letterNum)
         userPassword += letter
-    print("This is password", userPassword)
+    print("Your password of length", userNum, "is:", userPassword)
 
 def main():
     userInput = input("Enter a number: ")
