@@ -1,6 +1,7 @@
 import random
 
 def genPassword(userNum):
+    letter = random.randrange(32,127)
 
 def main():
     userInput = input("Enter a number: ")
