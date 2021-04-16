@@ -2,7 +2,8 @@ def genPassword(userInput):
     pass
 
 def main():
-    pass
+    userInput = input("Enter a number: ")
+
 
 if __name__ == "__main__":
     main()
