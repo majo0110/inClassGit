@@ -1,6 +1,6 @@
 def divisors(userNum):
     divisorList = []
-    for i in range (1, userNum):
+    for i in range (1, userNum+1):
         if( (userNum % i) == 0 ):
             divisorList.append(i)
 
