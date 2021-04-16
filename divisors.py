@@ -1,6 +1,8 @@
 def divisors(userNum):
     divisorList = []
-
+    for i in range (1, userNum):
+        if( (userNum % i) == 0 ):
+            divisorList.append(i)
 
 def main():
     userInput = input("Enter a number: ")
