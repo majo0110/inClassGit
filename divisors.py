@@ -14,7 +14,8 @@ def main():
         userInt = int(userInput)
         if(userInt == 0):
             print("You have chosen 0. No input")
-        divisors(userInt)
+        else:
+            divisors(userInt)
 
     except ValueError:
         print("You did not enter a valid number. Program will exit")
